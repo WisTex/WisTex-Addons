@@ -1,0 +1,6 @@
+version: 1
+url: $baseurl/testplugin
+requires: local_channel
+name: Test Plugin
+photo: icon:cog
+desc: A test addon for testing.
