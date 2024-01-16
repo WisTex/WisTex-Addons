@@ -58,7 +58,7 @@ class Neuhub_navbar_var extends Controller {
 
 		$_SESSION[$this->_pluginName . '.theme'] = $selectedTheme = $_GET['theme'] ?? $_SESSION[$this->_pluginName . '.theme'] ?? current(Theme::current());
 		
-		// Reload the "config" (database table) settings in the "testplugin2" category, because they not available yet
+		// Reload the "config" (database table) settings in the "neuhub_navbar_var" category, because they not available yet
 		unset(App::$config[$selectedTheme]);
 		load_config($selectedTheme);		
 
@@ -76,7 +76,7 @@ class Neuhub_navbar_var extends Controller {
 			header('Location: /' . $this->_pluginName . '/');
 		}
 
-		// If this is an Add request, load "config" (database table) settings in the "testplugin2" category into an array
+		// If this is an Add request, load "config" (database table) settings in the "neuhub_navbar_var" category into an array
 		if (!$isEditAction) {
 			$variableNames = [];
 			$themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar_*.tpl');
