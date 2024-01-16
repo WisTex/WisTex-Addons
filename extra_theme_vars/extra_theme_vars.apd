@@ -1,0 +1,6 @@
+version: 1
+url: $baseurl/extra_theme_vars
+requires: local_channel
+name: Extra Theme Variables
+photo: icon:cog
+desc: A test addon for testing.

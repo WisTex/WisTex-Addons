@@ -11,7 +11,7 @@
  * Maintainer: Scott M. Stolz
  * Maintainer: Federated Works \ Neuhub
  * License: MIT License (Expat Version)
- * Copyright: WisTex TechSero Ltd. Co.
+ * Copyright: 2023-2024 WisTex TechSero Ltd. Co.
 */
 
 /**
