@@ -29,13 +29,13 @@ use Zotlabs\Extend\Route;
  * The neuhub_navbar_var_nav() hook handler is registered for the "nav" hook
  * The "neuhub_navbar_var" route is created for Mod_Neuhub_navbar_var module 
 */
-function neuhub_navbar_var_load() {
+function neuhubnavbarvar_load() {
 	Hook::register('nav', 'addon/neuhubnavbarvar/neuhubnavbarvar.php', 'neuhubnavbarvar_nav');
 	Route::register('addon/neuhubnavbarvar/Mod_Neuhubnavbarvar.php', 'neuhubnavbarvar');
 }
 
 // * This function unregisters (removes) the hook handler and admin route.
-function neuhub_navbar_var_unload() {
+function neuhubnavbarvar_unload() {
 	Hook::unregister('nav', 'addon/neuhubnavbarvar/neuhubnavbarvar.php', 'neuhubnavbarvarnav');
 	Route::unregister('addon/neuhubnavbarvar/Mod_Neuhubnavbarvar.php', 'neuhubnavbarvar');
 }
@@ -44,7 +44,7 @@ function neuhub_navbar_var_unload() {
  * * This function runs when the hook handler is executed.
  * @param $templateObj: A reference to the corresponding template object in the global scope
 */
-function neuhub_navbar_var_nav(&$templateObj) {
+function neuhubnavbarvar_nav(&$templateObj) {
 	$current_theme = current(Zotlabs\Render\Theme::current());
 	
 	// Reload the "config" (database table) settings in the "neuhub_navbar_var" category, because they not available yet
