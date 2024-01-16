@@ -30,14 +30,14 @@ use Zotlabs\Extend\Route;
  * The "testplugin2" route is created for Mod_Testplugin2 module 
 */
 function testplugin2_load() {
-	Hook::register('nav', 'addon/neuhub_navbar_var/testplugin2.php', 'testplugin2_nav');
-	Route::register('addon/neuhub_navbar_var/Mod_Testplugin2.php', 'testplugin2');
+	Hook::register('nav', 'addon/neuhub_navbar_var/neuhub_navbar_var.php', 'neuhub_navbar_var_nav');
+	Route::register('addon/neuhub_navbar_var/Mod_Neuhub_navbar_var.php', 'neuhub_navbar_var');
 }
 
 // * This function unregisters (removes) the hook handler and admin route.
 function testplugin2_unload() {
-	Hook::unregister('nav', 'addon/neuhub_navbar_var/testplugin2.php', 'testplugin2_nav');
-	Route::unregister('addon/neuhub_navbar_var/Mod_Testplugin2.php', 'testplugin2');
+	Hook::unregister('nav', 'addon/neuhub_navbar_var/neuhub_navbar_var.php', 'neuhub_navbar_var_nav');
+	Route::unregister('addon/neuhub_navbar_var/Mod_Neuhub_navbar_var.php', 'neuhub_navbar_var');
 }
 
 /** 

@@ -17,7 +17,7 @@ use Zotlabs\Render\Theme;
 class Neuhub_navbar_var extends Controller {
 
 	// Class Fields
-	private string $_pluginName = '';
+	private string $_pluginName = ''; 
 	
 	// Method executed during page initialization
 	public function init(): void {
