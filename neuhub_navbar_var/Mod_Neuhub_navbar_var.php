@@ -14,7 +14,7 @@ use Zotlabs\Web\Controller;
 use Zotlabs\Render\Theme;
 
 // Neuhub_navbar_var class "controller" logic for the plugin's "neuhub_navbar_var" route
-class Neuhub_navbar_var extends Controller {
+class Neuhubnavbarvar extends Controller {
 
 	// Class Fields
 	private string $_pluginName = ''; 
