@@ -36,7 +36,7 @@ function neuhubnavbarvar_load() {
 
 // * This function unregisters (removes) the hook handler and admin route.
 function neuhubnavbarvar_unload() {
-	Hook::unregister('nav', 'addon/neuhubnavbarvar/neuhubnavbarvar.php', 'neuhubnavbarvarnav');
+	Hook::unregister('nav', 'addon/neuhubnavbarvar/neuhubnavbarvar.php', 'neuhubnavbarvar_nav');
 	Route::unregister('addon/neuhubnavbarvar/Mod_Neuhubnavbarvar.php', 'neuhubnavbarvar');
 }
 
