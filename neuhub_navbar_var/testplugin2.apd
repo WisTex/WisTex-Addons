@@ -1,0 +1,6 @@
+version: 1
+url: $baseurl/neuhub_navbar_var
+requires: admin
+name: Extra Theme Navigation Bar Variables
+photo: icon:cog
+desc: Allows admins to set navigation bar variables defined by a theme. Used in Neuhub themes and potentially some other themes.
