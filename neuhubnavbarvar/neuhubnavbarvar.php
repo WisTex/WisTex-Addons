@@ -55,7 +55,7 @@ function neuhubnavbarvar_nav(&$templateObj) {
 	if (!empty(App::$config[$current_theme])) {
 		foreach (App::$config[$current_theme] as $varName => $varValue) {
 			if ($varName != 'config_loaded') {
-				$templateObj['userinfo'][$current_theme][$varName] = $varValue;
+				$templateObj['usermenu'][$current_theme][$varName] = $varValue;
 			}
 		} 
 	}
