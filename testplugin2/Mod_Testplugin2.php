@@ -80,7 +80,7 @@ class Testplugin2 extends Controller {
 		if (!$isEditAction) {
 			$variableNames = [];
 			// $themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
-			$themeNavTplFiles = glob(dirname(dirname(dirname(dirname(_DIR)))) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
+			$themeNavTplFiles = glob(dirname(dirname(dirname(dirname(__DIR__)))) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
 			if ($themeNavTplFiles !== false && !empty($themeNavTplFiles)) {
 				foreach ($themeNavTplFiles as $tplFile) {
 					$themeContent = file_get_contents($tplFile);
