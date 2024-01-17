@@ -79,7 +79,8 @@ class Neuhubnavbarvar extends Controller {
 		// If this is an Add request, load "config" (database table) settings in the "neuhub_navbar_var" category into an array
 		if (!$isEditAction) {
 			$variableNames = [];
-			$themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
+			// $themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
+			$themeNavTplFiles = glob(dirname(dirname(dirname(dirname(__DIR__)))) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
 			if ($themeNavTplFiles !== false && !empty($themeNavTplFiles)) {
 				foreach ($themeNavTplFiles as $tplFile) {
 					$themeContent = file_get_contents($tplFile);
