@@ -79,7 +79,7 @@ class Testplugin2 extends Controller {
 		// If this is an Add request, load "config" (database table) settings in the "testplugin2" category into an array
 		if (!$isEditAction) {
 			$variableNames = [];
-			$themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar_*.tpl');
+			$themeNavTplFiles = glob(dirname(dirname(__DIR__)) . '/view/theme/' . $selectedTheme . '/tpl/navbar*.tpl');
 			if ($themeNavTplFiles !== false && !empty($themeNavTplFiles)) {
 				foreach ($themeNavTplFiles as $tplFile) {
 					$themeContent = file_get_contents($tplFile);
