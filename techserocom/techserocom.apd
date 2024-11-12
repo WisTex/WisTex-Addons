@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/webdedsign/$nick
+name: Custom Pages
+requires: none
+photo: icon:newspaper
+categories: CustomPage
+desc: Shows custom pages.
