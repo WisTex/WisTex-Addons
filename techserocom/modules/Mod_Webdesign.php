@@ -36,14 +36,14 @@ class Webdesign extends Controller {
 	// Generic handler for a HTTP GET request (e.g., viewing the page normally)
 	public function get(): void {
 		// Create page sections, inserting template vars
-        $content = replace_macros(get_markup_template($this->_moduleName . ".tpl", 'addon/custompage'), [
+        $content = replace_macros(get_markup_template($this->_moduleName . ".tpl", 'addon/techserocom'), [
 			'$action_url' => $this->_moduleName,
 			'$form_security_token' => get_form_security_token($this->_moduleName),
 			'$title' => t('Web Design'),
 			'$content' => t('Page content goes here.'),
 			'$submit' => t('Submit')
 		]);
-		//$footer = replace_macros(get_markup_template("footer_custom.tpl", 'addon/custompage'), []);        
+		//$footer = replace_macros(get_markup_template("footer_custom.tpl", 'addon/techserocom'), []);        
 
 		// Return/Render content in the plugin template's "content" region
 		//return $content;
