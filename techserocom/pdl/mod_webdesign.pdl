@@ -1,4 +1,4 @@
-[template]minimal[/template]
+[template]default[/template]
 
 [region=aside]
 [widget=notifications][/widget]
