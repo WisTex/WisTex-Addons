@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="/addons/wistexaddons/techserocom/css/codestitch.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/addons/wistexaddons/techserocom/css/sections.css" media="screen" />
+
 <h2>{{$title}}</h2>
 <div>
     {{$content}}
