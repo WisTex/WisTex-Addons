@@ -1,6 +1,7 @@
-[template]default[/template]
+[template]doubleright[/template]
 
 [region=aside]
+Aside
 [widget=notifications][/widget]
 [widget=messages][/widget]
 [widget=hq_controls]
@@ -25,5 +26,6 @@ $content
 [/region]
 
 [region=right_aside]
+Right Aside
 [widget=newmember][/widget]
 [/region]
