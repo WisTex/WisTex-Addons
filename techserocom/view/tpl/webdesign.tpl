@@ -1,5 +1,5 @@
 <h2>{{$title}}</h2>
-<main class="bg-light">
+<main class="">
 
 <h1>Comprehensive Web Development Solutions for Your Business</h1>
 
