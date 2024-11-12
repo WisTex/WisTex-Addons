@@ -31,8 +31,8 @@ class TechSeroCom {
  * The "webdesign" route is created for Mod_Webdesign module 
 */
 function techserocom_load() {
-    // Hook::register('page_header', 'addon/techserocom/techserocom.php', 'techserocom_customize_header');
-    // Hook::register('page_end', 'addon/techserocom/techserocom.php', 'techserocom_customize_footer');
+    Hook::register('page_header', 'addon/techserocom/techserocom.php', 'techserocom_customize_header');
+    Hook::register('page_end', 'addon/techserocom/techserocom.php', 'techserocom_customize_footer');
 	Route::register('addon/techserocom/modules/Mod_Webdesign.php', 'webdesign');
     Route::register('addon/techserocom/modules/Mod_Hubzilla.php', 'hubzilla');
 }
