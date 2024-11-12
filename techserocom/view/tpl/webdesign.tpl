@@ -11,11 +11,11 @@
     <div class="cs-container">
         <div class="cs-content">
             <div class="cs-flex">
-                <span class="cs-topper">Why Choose Us</span>
-                <h2 class="cs-title">Grow Your Business with Our New Bold Agency</h2>
+                <span class="cs-topper">Wen Design</span>
+                <h2 class="cs-title">Comprehensive Web Development Solutions for Your Business</h2>
             </div>
             <p class="cs-text">
-                Aqestic recusandae laudantium optio amet a quisquam saepe aliquid, voluptate praesentium dicta fuga dolor error perspiciatis voluptatem eum cupiditate totam reiciendis quam minus inventore sint rem impedit esse quasi Tenetur sed reprehenderit earum a magni aliquid blanditiis dolores, veritatis soluta autem beatae officia expedita ipsum rerum doloribus sit provident delectus.
+            At TechSero, we combine expertise in the latest web technologies with a commitment to tailored solutions that meet your business's unique needs. We specialize in developing robust, efficient, and secure web applications designed to enhance user experience and optimize performance. Here’s how our skills drive results:
             </p>
         </div>  
         <div class="cs-wrapper">
@@ -28,9 +28,9 @@
                     </picture>
                     <!-- Text Grouped For Flexbox-->
                     <div class="cs-text-group">
-                        <h3 class="cs-h3">Answer a Few Questions</h3>
+                        <h3 class="cs-h3">Advanced Server Configuration and Management</h3>
                         <p class="cs-item-text">
-                            We welcome and celebrate different perspectives to help our firm, our clients and our people adip iscing elit achieve.
+                        With a solid foundation in *LAMP stack* (Linux, Apache, MySQL, PHP), we build web applications on a reliable, scalable infrastructure. Our knowledge of *Linux Bash scripting* and expertise with *aaPanel and cPanel* allow us to streamline server management, optimize performance, and automate essential tasks for a smooth, efficient server environment.
                         </p>
                     </div>
                 </li>
