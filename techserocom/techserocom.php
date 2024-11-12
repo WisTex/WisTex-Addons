@@ -17,6 +17,7 @@
 
 use Zotlabs\Lib\Apps;
 use Zotlabs\Extend\Hook;
+use Zotlabs\Extend\Widget;
 use Zotlabs\Extend\Route;
 
 class TechSeroCom {
