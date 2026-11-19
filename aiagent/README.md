@@ -18,8 +18,8 @@ It does **not** yet provide model API calls, configuration, scheduling, persiste
 
 ## Review and assumptions
 
-- The host's Hubzilla version supports `Zotlabs\\Extend\\Route::register()` and `unregister()` with the demonstrated path and route signatures.
-- The host's router resolves a registered `Zotlabs\\Module\\Aiagent` controller from `Mod_Aiagent.php` as in the inspected Neuhub addon example.
+- The host's Hubzilla version supports `Zotlabs\Extend\Route::register()` and `unregister()` with the demonstrated path and route signatures.
+- The host's router resolves a registered `Zotlabs\Module\Aiagent` controller from `Mod_Aiagent.php` as in the inspected Neuhub addon example.
 - The site's addon installer scans direct child folders of the configured addon collection.
 - `local_channel()` is available to the controller at request time.
 
